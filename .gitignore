@@ -21,3 +21,11 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Modelos de inferencia
+/models/*.onnx
+
+# Entorno Python
+/backend/.venv/
+/backend/__pycache__/
+**/__pycache__/
